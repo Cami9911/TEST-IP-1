@@ -64,7 +64,7 @@
                     <ul style="background-color:rgba(18,86,136,0.7)">
                         <li><a href="#" class="stats-btn" onclick=" ">View Count</a></li>
                         <li><a href="#" class="stats-btn" onclick=" ">Best Post</a></li>
-                        <li><a href="#" class="stats-btn" onclick=" ">All Comments</a></li>
+                        <li><a href="#" class="stats-btn" onclick="getAllCommsFlickr() ">All Comments</a></li>
                         <li><a href="#" class="stats-btn" onclick="getLast3CommsFlickr()">Last 3 comments</a></li>
                         <li><a href="#" class="stats-btn" onclick="getUsername()">Account Name</a></li>
                     </ul>
@@ -114,7 +114,10 @@
     <script src="get-post-text.js"></script>
     <script src="GetBestPost.js"></script>
     <script src="getUsername.js"></script>
-    <script type="text/javascript" src="GetAllComms.js">
+    <script type="text/javascript" src="GetAllComms.js" src="getAllCommsFlickr.js">
+        console.log(sessionStorage.getItem("fbId"));
+    </script>
+    <script type="text/javascript" src="getAllCommsFlickr.js">
         console.log(sessionStorage.getItem("fbId"));
     </script>
 
