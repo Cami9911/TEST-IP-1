@@ -32,7 +32,7 @@ function getAllCommsFlickr () {
     xhttp.send(null)
   }
   
-  function modifyHTML (owner, comentariu) {
+  function modifyHTML (comentariu, owner) {
     var elem = document.createElement('div')
     var heading = document.createElement('h4')
     var comment = document.createElement('p')
