@@ -41,6 +41,7 @@
                         <li><a href="#" class="stats-btn" onclick="getComm()">Get all comments</a></li>
                         <li><a href="#" class="stats-btn" onclick="getLastComms()">Get last 3 comms</a></li>
                         <li><a href='#' class="stats-btn" onclick="getPostText()">Get post text </a></li>
+                        <li><a href='#' class="stats-btn" onclick="popularHashTagFacebook()">Popular HashTag </a></li>
                     </ul>
                 </div>
             </div>
@@ -69,6 +70,8 @@
                         <li><a href="#" class="stats-btn" onclick="getAllCommsFlickr ()">All Comments</a></li>
                         <li><a href="#" class="stats-btn" onclick="getLast3CommsFlickr()">Last 3 comments</a></li>
                         <li><a href="#" class="stats-btn" onclick="getUsername()">Account Name</a></li>
+                        <li><a href="#" class="stats-btn" onclick="popularHashTagFlickr()">Popular HashTag</a></li>
+
                     </ul>
                 </div>
 
@@ -120,6 +123,8 @@
             </div>
             <div class="wrapper-content" id="content-area" style="overflow-y: scroll; border-bottom: 0px;"></div>
     </section>
+    <script src="hashtagFacebook.js"></script>
+    <script src="hashtagFlickr.js"></script>
     <script src="retrieveDailyStats.js"></script>
     <script src="retrieveDailyFollowers.js"></script>
     <script src="retrievePostsRanking.js"></script>
